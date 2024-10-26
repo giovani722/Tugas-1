@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" href="./assets/img/epeo.png">
+        <title>Tugas 1</title>
+    </head>
+    <body>
+        <nav>
+            <img onclick="Profile()" src="./assets/img/pep.jpg" alt="pep" width="40px">
+            <ul>
+                <li><a href="./index.html">Home</a></li>
+                <li><a href=#>Projek</a></li>
+                <li><a href="#">Community</a></li>
+            </ul>
+        </nav>
+        <div class="king-div">
+            <div class="div">
+                <h3>Rumus Teorema Pythagoras :</h3>
+                <div class="container-div">
+                    <p>A<sup>2</sup> + B<sup>2</sup> = C<sup>2</sup></p>
+                    <img src="./assets/img/pyta.png" alt="Pytagoras" width="50" height="50">
+                </div>
+            </div>
+            <div class="div">
+                <h3>Rumus Kubus :</h3>
+                <div class="container-div">
+                    <p>V = S<sup>3</sup></p>
+                    <p>L = 6 x S<sup>2</sup></p>
+                    <img src="assets/img/kubus.png" alt="Pytagoras" width="100" height="50">
+                </div>
+            </div>
+            <div class="div">
+                <h3>Rumus Fungsi :</h3>
+                <div class="container-div">
+                    <p>F(x) = A<sup>cs</sup></p>
+                    <h1 class="h1fx">F(x)</h1>
+                </div>
+            </div>
+            <div class="div">
+                <h3>Molekul Senyawa Air</h3>
+                <div class="container-div">
+                    <p>H<sub>2</sub>O</p>
+                    <img src="assets/img/air.png" alt="Pytagoras" width="50" height="50">
+                </div>
+            </div>
+            <div class="div">
+                <h3>Molekul Senyawa Oksigen</h3>
+                <div class="container-div">
+                    <p>O<sub>2</sub></p>
+                    <img src="assets/img/oksigen.png" alt="Pytagoras" width="50" height="50">
+                </div>
+            </div>
+            <div class="div">
+                <h3>Molekul Senyawa Berilium Klorida</h3>
+                <div class="container-div">
+                    <p>BeCl<sub>2</sub></p>
+                    <img src="assets/img/berlium.png" alt="Pytagoras" width="50" height="50">
+                </div>
+            </div>
+            <div class="div">
+                <h3><em>Operating System</em> Windows</h3>
+                <div class="container-div">
+                    <p><em>Operating System</em> Windows buatan <b>Microsoft</b> yang dirilis pada 1985, dengan antarmuka grafis yang mudah digunakan. Umumnya digunakan di komputer pribadi (PC) dan banyak perangkat lainnya.</p>
+                </div>
+            </div>
+            <div class="div">
+                <h3><em>Operating System</em> Linux</h3>
+                <div class="container-div">
+                    <p>Sistem operasi <em>open-source</em> berbasis kernel Linux, dirilis pada 1991. Dapat diubah dan didistribusikan bebas, populer untuk server, tapi juga digunakan di desktop dan perangkat lain.</p>
+                </div>
+            </div>
+            <div class="div">
+                <h3>AI<em> (Artificial Intelligence)</em></h3>
+                <div class="container-div">
+                    <p><em>Artificial Intelligence</em> adalah teknologi yang membuat mesin dapat meniru kecerdasan manusia, seperti belajar, berpikir, dan mengambil keputusan secara otomatis.</p>
+                </div>
+            </div>
+        </div>
+        <style>
+            *,
+            html {
+                margin: 0;
+                padding: 0;
+            }
+            body {
+                background-color: #003459;
+                color: #F9F7E4;
+            }
+            nav {
+                display: flex;
+                justify-content: start;
+                align-items: center;
+                background-color: #122d4f;
+                height: 10vh;
+                width: 100%;
+                position: sticky;
+                top: 0;
+                left: 0;
+                z-index: 1000;
+            }
+            nav ul {
+                display: flex;
+                column-gap: 20px;
+                list-style-type: none;
+                padding-left: 4vh;
+            }
+            nav ul li a {
+                color: #F9F7E4;
+                text-decoration: none;
+                font-size: 1.2rem;
+            }
+            nav img {
+                border-radius: 50%;
+                margin-left: 10px;
+                cursor: pointer;
+            }
+            .king-div {
+                display: grid;
+                grid-template-columns: auto auto auto;
+            }
+            .h1fx {
+                font-size: 2rem;
+                font-weight: 900;
+            }
+            .div {
+                border: 1px solid;
+                border-radius: 10px;
+                display: grid;
+                width: 30vw;
+                height: 22vh;
+                margin: 10px;
+                padding: 10px;
+            }
+            .container-div {
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+            }
+        </style>
+        <script src="./script.js"></script>
+    </body>
+</html>

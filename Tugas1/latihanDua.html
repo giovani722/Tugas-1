@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" href="./assets/img/epeo.png">
+        <title>Tugas 2</title>
+    </head>
+    <body>
+        <nav>
+            <img onclick="Profile()" src="./assets/img/pep.jpg" alt="pep" width="40px">
+            <ul>
+                <li><a href="./index.html">Home</a></li>
+                <li><a href=#>Projek</a></li>
+                <li><a href="#">Community</a></li>
+            </ul>
+        </nav>
+        <div class="div">
+            <div class="container-div">
+                <h3>Daftar Nama Mahasiswa Kelas Web Programing (Frontend)</h3>
+                <div class="lakilaki">
+                    <p>Laki-Laki</p>
+                    <ul class="ulfo">
+                        <li class="lifo">Arya</li>
+                        <li class="lifo">Bima</li>
+                        <li class="lifo">Candra</li>
+                        <li class="lifo">Dimas</li>
+                        <li class="lifo">Gilang</li>
+                        <li class="lifo">Heri</li>
+                    </ul>
+                <div class="lakilaki">
+                    <p>Perempuan</p>
+                    <ul class="ulfo">
+                        <li class="lifo">Aulia</li>
+                        <li class="lifo">Cristin</li>
+                        <li class="lifo">Friska</li>
+                        <li class="lifo">Gisel</li>
+                        <li class="lifo">Raysa</li>
+                        <li class="lifo">Wilda</li>
+                    </ul>
+                </div>
+                </div>
+            </div>
+            <div class="container-div">
+                <h3>Daftar Nama Mahasiswa Kelas Web Programing (Backend)</h3>
+                <div class="lakilaki">
+                    <p>Laki-Laki</p>
+                    <ul class="ulfo">
+                        <li class="lifo">Arya</li>
+                        <li class="lifo">Bima</li>
+                        <li class="lifo">Candra</li>
+                        <li class="lifo">Dimas</li>
+                        <li class="lifo">Gilang</li>
+                        <li class="lifo">Heri</li>
+                    </ul>
+                <div class="lakilaki">
+                    <p>Perempuan</p>
+                    <ul class="ulfo">
+                        <li class="lifo">Aulia</li>
+                        <li class="lifo">Cristin</li>
+                        <li class="lifo">Friska</li>
+                        <li class="lifo">Gisel</li>
+                        <li class="lifo">Raysa</li>
+                        <li class="lifo">Wilda</li>
+                    </ul>
+                </div>
+                </div>
+            </div>
+        </div>
+        <style>
+            *,
+            html {
+                padding: 0;
+                margin: 0;
+            }
+            body {
+                background-color: #003459;
+                color: #F9F7E4;
+            }
+            nav {
+                display: flex;
+                justify-content: start;
+                align-items: center;
+                background-color: #122d4f;
+                height: 10vh;
+                width: 100%;
+                position: sticky;
+                top: 0;
+                left: 0;
+                z-index: 1000;
+            }
+            nav ul {
+                display: flex;
+                column-gap: 20px;
+                list-style-type: none;
+                padding-left: 4vh;
+            }
+            nav ul li a {
+                color: #F9F7E4;
+                text-decoration: none;
+                font-size: 1.2rem;
+            }
+            nav img {
+                border-radius: 50%;
+                margin-left: 10px;
+                cursor: pointer;
+            }
+            .div {
+                display: grid;
+                grid-template-columns: auto auto;
+                justify-content: space-evenly;
+                align-items: center;
+                margin-top: 10vh;
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: 1.2rem;
+            }
+            .container-div {
+                border: 2px solid #F9F7E4;
+                border-radius: 20px;
+                width: 40vw;
+                padding: 15px;
+            }
+            p {
+                font-weight: 600;
+                padding: 10px;
+            }
+            .ulfo .lifo {
+                list-style-type: none;
+                padding-left: 10px;
+            }
+        </style>
+        <script src="./script.js"></script>
+    </body>
+</html>

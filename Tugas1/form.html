@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="styleform.css">
+        <link rel="icon" href="./assets/img/epeo.png">
+        <title>Form</title>
+    </head>
+    <body>
+        <nav>
+            <img onclick="Profile()" src="./assets/img/pep.jpg" alt="pep" width="40px">
+            <ul>
+                <li><a href="./index.html">Home</a></li>
+                <li><a href=#>Projek</a></li>
+                <li><a href="#">Community</a></li>
+            </ul>
+        </nav>
+        <div class="bgform">
+            <form onsubmit="tampilkanData(event)">
+                <div class="containerForm">
+                    <h3>Registrasi</h3>
+                    <br>
+                    <div class="label1">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <br>
+                    <div class="label1">
+                        <label>Password</label>
+                        <input type="Password" required>
+                    </div>
+                    <br>
+                    <div class="label1">
+                        <label for="username">Username</label>
+                        <input type="text" id="username" name="username" required>
+                    </div>
+                    <br>
+                    <div class="label2">
+                        <label>Jenis Kelamin</label>
+                        <br>
+                        <input type="radio" id="laki-laki" name="jenis_kelamin" value="Laki-laki"><label for="laki-laki">Laki-laki</label>
+                        <input type="radio" id="perempuan" name="jenis_kelamin" value="Perempuan"><label for="perempuan">Perempuan</label>
+                    </div>
+                    <br>
+                    <div class="label3">
+                        <label for="pilihKelas">Pilih Kelas : </label>
+                        <select id="pilihKelas" name="pilihKelas">
+                            <option value="Front-End Dev">Front-End Dev</option>
+                            <option value="Back-End Dev">Back-End Dev</option>
+                            <option value="Full-Stack Dev">Full-Stack Dev</option>
+                        </select>
+                    </div>
+                    <br>
+                    <div class="label4">
+                        <label>Biografi : </label>
+                        <textarea name="biografi"></textarea>
+                    </div>
+                    <br>
+                    <div class="sub">
+                        <input type="submit" value="Kirim" />
+                    </div>
+                </div>
+            </form>
+        </div>
+        <div id="outputTable"></div>
+        <script src="./script.js"></script>
+    </body>
+</html>

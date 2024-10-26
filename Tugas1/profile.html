@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./assets/img/epeo.png">
+    <title>Pepe School</title>
+</head>
+<body>
+    <nav>
+        <img onclick="Profile()" src="./assets/img/pep.jpg" alt="pep" width="40px">
+        <ul>
+            <li><a href="./index.html">Home</a></li>
+            <li><a href=#>Projek</a></li>
+            <li><a href="#">Community</a></li>
+        </ul>
+    </nav>
+    <div class="container-table">
+        <table>
+            <tr>
+                <th>Data Diri</th>
+                <th>Keterangan</th>
+                <th class="foto">Foto</th>
+            </tr>
+            <tr>
+                <td>Nama</td>
+                <td>John S.TI.</td>
+                <td rowspan="7">
+                    <img src="./assets/img/Pepe1.png" alt="foto" height="350" width="350">
+                </td>
+            </tr>
+            <tr>
+                <td>NPM</td>
+                <td>100233113</td>
+            </tr>
+            <tr>
+                <td>Lulusan</td>
+                <td>Teknik Informatika</td>
+            </tr>
+            <tr>
+                <td>Jenis Kelamin</td>
+                <td>Laki-Laki</td>
+            </tr>
+            <tr>
+                <td>TTL</td>
+                <td>Bandung, 17 Mei 1995</td>
+            </tr>
+            <tr>
+                <td>Alamat</td>
+                <td>Bandung, Dayeuhkolot</td>
+            </tr>
+            <tr>
+                <td>Hobi</td>
+                <td>Programing</td>
+            </tr>
+        </table>
+    </div>
+    <style>
+        *,
+        html {
+            padding: 0;
+            margin: 0;
+        }
+        body {
+            display: block;
+            justify-content: center;
+            align-items: center;
+            background: #003459;
+        }
+        nav {
+            display: flex;
+            justify-content: start;
+            align-items: center;
+            background-color: #122d4f;
+            height: 10vh;
+            width: 100%;
+            position: sticky;
+            top: 0;
+            left: 0;
+            z-index: 1000;
+            margin-bottom: 10vh;
+        }
+        nav ul {
+            display: flex;
+            column-gap: 20px;
+            list-style-type: none;
+            padding-left: 4vh;
+        }
+        nav ul li a {
+            color: #F9F7E4;
+            text-decoration: none;
+            font-size: 1.2rem;
+        }
+        nav img {
+            border-radius: 50%;
+            margin-left: 10px;
+            cursor: pointer;
+        }
+        h2 {
+            font-size: 2rem;
+            font-weight: 400;
+            color: #F9F7E4;
+        }
+        .container-table {
+            display: grid;
+            justify-content: center;
+            align-items: center;
+        }
+        table {
+            border-collapse: collapse;
+            background-color: #0D1D25;
+            border: 2px solid black;
+            height: 50vh;
+            width: 50vw;
+            color: #F9F7E4;
+        }
+        th {
+            background-color: #122d4f;
+        }   
+        th, td {
+            padding: 12px;
+            border-bottom: 1px solid black;
+            border-left: 1px solid black;
+        }
+        td {
+            border-right: 1px solid black;
+        }
+        td img {
+            border-radius: 10px;
+            margin-bottom: -2.5vh;
+        }
+    </style>
+</body>
+</html>
